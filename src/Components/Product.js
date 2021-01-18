@@ -11,7 +11,7 @@ export const Product = () => {
         {Object.keys(shoeData).map((obj) => {
           return (
             <Link key={obj} to={`/Product/${obj}`} className="link">
-              <img src={shoeData[obj].img} height={163} />
+              <img src={shoeData[obj].img} height={163} alt="java-one"/>
               <h4>{shoeData[obj].name}</h4>
             </Link>
           );

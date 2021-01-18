@@ -12,7 +12,7 @@ export const ProductInfo = () => {
         <div>
             <h3>Product Info</h3>
             <div className="link">
-              <img src={shoeData[id].img} height={300}  alt="Shoe Picture"/>
+              <img src={shoeData[id].img} height={300}  alt="Python-alpha"/>
               <h4>{shoeData[id].name}</h4>
             </div>
         </div>
